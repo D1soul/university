@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Университет</string>
+    <string name="logo">logo</string>
+    <string-array name="university">
+        <item>Кафедра</item>
+        <item>Преподавательский состав</item>
+        <item>Студенческие группы</item>
+        <item>Мероприятия</item>
+        <item>Поступающим</item>
+    </string-array>
+
+    <string name="change_depTable">Редактировать таблицу</string>
+    <string name="query_depTable">Осуществить запросы</string>
+
+    <string name="change_depId">id</string>
+    <string name="change_depName">Название</string>
+    <string name="change_depSubjects">Дисциплины</string>
+    <string name="change_headOfDep">Глава</string>
+
+    <string name="addDep">Добавить</string>
+    <string name="updateDep">Редактировать</string>
+    <string name="delDep">Удалить</string>
+
+    <string name="query_First"> Вывести имена всех преподавателей с опытом работы более вводимого числа:</string>
+    <string name="query_Second">Вывести имена всех преподавателей находящихся в кафедре с вводимым именем заведующего кафедрой:</string>
+    <string name="showResult">Показать результат</string>
+
+    <string name="change_prTable">Редактировать таблицу</string>
+    <string name="query_prTable">Осуществить запросы</string>
+
+    <string name="change_prId">id</string>
+    <string name="change_prName">Имя</string>
+    <string name="change_prPost">Должность</string>
+    <string name="change_prSpec">Специальность</string>
+    <string name="change_workExp">Стаж</string>
+    <string name="change_prDep">Номер кафедры</string>
+
+    <string name="addPr">Добавить</string>
+    <string name="updatePr">Редактировать</string>
+    <string name="delPr">Удалить</string>
+
+    <string name="change_stTable">Редактировать таблицу</string>
+    <string name="query_stTable">Осуществить запросы</string>
+
+    <string name="change_stId">id</string>
+    <string name="change_stName">Имя</string>
+    <string name="change_stAge">Возраст</string>
+    <string name="change_stGroup">Группа</string>
+    <string name="change_stDebt">Долги</string>
+    <string name="change_stDepId">Номер кафедры</string>
+
+    <string name="addSt">Добавить</string>
+    <string name="updateSt">Редактировать</string>
+    <string name="delSt">Удалить</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>
+

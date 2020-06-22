@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hfad.university.ProfessorsChangeActivity">
+
+        <EditText
+            android:id="@+id/change_prId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/change_prId"/>
+
+        <EditText
+            android:id="@+id/change_prName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/change_prName" />
+
+        <EditText
+            android:id="@+id/change_prPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/change_prPost"/>
+
+        <EditText
+            android:id="@+id/change_prSpec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/change_prSpec"/>
+
+        <EditText
+            android:id="@+id/change_workExp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/change_workExp"/>
+
+        <EditText
+            android:id="@+id/change_prDep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/change_prDep"/>
+
+        <Button
+            android:id="@+id/addPr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addPr" />
+
+        <Button
+            android:id="@+id/delPr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delPr"/>
+
+        <Button
+            android:id="@+id/updatePr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/updatePr"/>
+
+</LinearLayout>

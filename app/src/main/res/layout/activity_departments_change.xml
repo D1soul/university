@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hfad.university.DepartmentsChangeActivity">
+
+    <EditText
+        android:id="@+id/change_depId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/change_depId"/>
+
+    <EditText
+        android:id="@+id/change_depName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/change_depName" />
+
+    <EditText
+        android:id="@+id/change_depSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/change_depSubjects"/>
+
+    <EditText
+        android:id="@+id/change_headOfDep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/change_headOfDep"/>
+
+    <Button
+        android:id="@+id/addDep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addDep" />
+
+    <Button
+        android:id="@+id/delDep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delDep"/>
+
+    <Button
+        android:id="@+id/updateDep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/updateDep"/>
+
+</LinearLayout>

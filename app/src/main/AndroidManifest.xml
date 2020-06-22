@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfad.university">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/CustomTheme">
+
+        <activity android:name=".UniversityActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DepartmentsListActivity"
+            android:parentActivityName=".UniversityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UniversityActivity" />
+        </activity>
+
+        <activity
+            android:name=".DepartmentsActivity"
+            android:parentActivityName=".UniversityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UniversityActivity" />
+        </activity>
+
+        <activity
+            android:name=".ProfessorsListActivity"
+            android:parentActivityName=".UniversityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UniversityActivity" />
+        </activity>
+
+        <activity
+            android:name=".StudentsActivity"
+            android:parentActivityName=".UniversityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UniversityActivity" />
+        </activity>
+
+        <activity
+            android:name=".StudentsListActivity"
+            android:parentActivityName=".UniversityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UniversityActivity" />
+        </activity>
+
+        <activity
+            android:name=".ProfessorsActivity"
+            android:parentActivityName=".UniversityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UniversityActivity" />
+        </activity>
+
+        <activity
+            android:name=".ProfessorsChangeActivity"
+            android:parentActivityName=".UniversityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UniversityActivity" />
+        </activity>
+
+        <activity
+            android:name=".DepartmentsChangeActivity"
+            android:parentActivityName=".UniversityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UniversityActivity" />
+        </activity>
+
+        <activity
+            android:name=".UniversityQueryActivity"
+            android:parentActivityName=".UniversityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UniversityActivity" />
+        </activity>
+
+        <activity
+            android:name=".StudentsChangeActivity"
+            android:parentActivityName=".UniversityActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UniversityActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

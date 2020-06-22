@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hfad.university.StudentsChangeActivity">
+
+    <EditText
+        android:id="@+id/change_stId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/change_stId"/>
+
+    <EditText
+        android:id="@+id/change_stName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/change_stName" />
+
+    <EditText
+        android:id="@+id/change_stAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/change_stAge"/>
+
+    <EditText
+        android:id="@+id/change_stGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/change_stGroup"/>
+
+    <EditText
+        android:id="@+id/change_stDebt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/change_stDebt"/>
+
+    <EditText
+        android:id="@+id/change_stDepId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/change_stDepId"/>
+
+    <Button
+        android:id="@+id/addSt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addSt" />
+
+    <Button
+        android:id="@+id/delSt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delSt"/>
+
+    <Button
+        android:id="@+id/updateSt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/updateSt"/>
+
+</LinearLayout>
